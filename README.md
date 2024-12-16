@@ -1,5 +1,5 @@
 # Hack-The-Box-University-CTF-2024
-Hack The Box Uni CTF: A collection of challenges and writeups from university-level Capture The Flag competitions. Dive into topics like web exploitation, reverse engineering, cryptography, and more. Ideal for honing cybersecurity skills and learning practical attack and defense techniques.
+Hack The Box Uni CTF: A collection of challenges from university-level Capture The Flag competitions. Dive into topics like web exploitation, reverse engineering, cryptography, and more. Ideal for honing cybersecurity skills and learning practical attack and defense techniques.
 
 # Forensics Writeups
 
