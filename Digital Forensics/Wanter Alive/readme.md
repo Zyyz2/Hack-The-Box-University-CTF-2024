@@ -33,7 +33,10 @@ cat wanted.hta
 
 ### Step 5: Execute the Downloaded VBS Script
 - To execute the downloaded .vbs script, we need to modify the system’s etc/hosts file to associate the malicious domain with the Docker IP. Just type in your terminal 'sudo nano /etc/hosts' after that add the domain associated with the given ip .
-- After this, we use curl to fetch the .vbs file from the provided URL : curl http://wanted.alive.htb:port/35/wanted.tIF
+- After this, we use curl to fetch the .vbs file from the provided URL :
+
+```curl http://wanted.alive.htb:port/35/wanted.tIF```
+
 - This retrieves the malicious .vbs file, which we then analyze.
 
 ### Step 6: Deconstruct the VBS Script
