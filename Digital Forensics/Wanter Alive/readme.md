@@ -52,6 +52,9 @@ cat wanted.hta
 - The use of Base64 encoding and obfuscation techniques ensures that each payload is hidden and not easily detected by standard security tools.
 
 ### Step 8: Retrieve the Flag
-- After performing all necessary steps and decoding the final payload, we use curl to fetch the last script : ```curl http://wanted.alive.htb:port/cdba/_rp```
+- After performing all necessary steps and decoding the final payload, we use curl to fetch the last script :
+- ```curl http://wanted.alive.htb:port/cdba/_rp```
+
 and then we get the flag :
+
 **HTB{c4tch3d_th3_m4lw4r3_w1th_th3_l4ss0_9829c8ef2650507eed3f7a63361074ae}**
