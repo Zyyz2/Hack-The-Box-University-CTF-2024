@@ -23,7 +23,7 @@ cat wanted.hta
 - The obfuscation techniques used in the VBScript help to evade detection and make analysis harder.
 
 ### Step 4: Decode the Base64 Payload
-- The Base64-encoded payload is decoded to reveal a PowerShell script. This script imports a function from a DLL (uRLmON.dll) and uses it to download a malicious .vbs file from a remote server - --- 
+- The Base64-encoded payload is decoded to reveal a PowerShell script. This script imports a function from a DLL (**uRLmON.dll**) and uses it to download a malicious .vbs file from a remote server - --- 
 - (http://wanted.alive.htb/35/wanted.tIF). The file is saved to the user's APPDATA directory and executed after a brief pause.
 
 - After decoding the Base64 payload, we can see the PowerShell script that downloads the file:
@@ -52,5 +52,6 @@ cat wanted.hta
 - The use of Base64 encoding and obfuscation techniques ensures that each payload is hidden and not easily detected by standard security tools.
 
 ### Step 8: Retrieve the Flag
-- After performing all necessary steps and decoding the final payload, we use curl to fetch the last script : curl http://wanted.alive.htb:port/cdba/_rp
-and then we get the flag : HTB{c4tch3d_th3_m4lw4r3_w1th_th3_l4ss0_9829c8ef2650507eed3f7a63361074ae}
+- After performing all necessary steps and decoding the final payload, we use curl to fetch the last script : ```curl http://wanted.alive.htb:port/cdba/_rp```
+and then we get the flag :
+**HTB{c4tch3d_th3_m4lw4r3_w1th_th3_l4ss0_9829c8ef2650507eed3f7a63361074ae}**
